@@ -1,5 +1,5 @@
-print ("Hi, this is the baker. How can I help you?")
-workers = ['Abu Omar','Abu Talal','Abu Mahmoud','Abu Yousef','Abdullah','Abu Yazan','Khatab',"Khader",'Mahmoud','Mostafa','Wael',"Monir",'Mohammed A','Abood','Mohammed F','Sara Eid','Weam','Jana']
+print ("Hi, this is the the Tip Calculator. How can I help you?")
+workers = ['Abu Omar','Abu Talal','Abu Mahmoud','Abu Yousef','Abdullah','Abu Yazan','Khatab',"Khader",'Mahmoud','Mostafa','Wael',"Monir",'Mohammed A','Abood','Mohammed F','Sara Eid','Weeam']
 pay = []
 totalPay = []
 
@@ -46,7 +46,7 @@ def tips ():
         totalPay.append (each)
         print(workers[q] + " should get: $" +str(totalPay [q]))
 
-    print ("Big Boss should get: $" + str(bigBoss))
+    print ("Sales tax set aside: $" + str(bigBoss))
     finalPay = sum(totalPay)
     remainder = newTips - finalPay
     print ("The remainder should be: $" + str(remainder))
