@@ -49,15 +49,13 @@ def tips ():
 
     totalCuts = sum(pay)
     indie = round((newTips / totalCuts)/5) * 5
-    finalPay = sum(totalPay)
-    remainder = newTips - finalPay
 
 
     # Iterate over workers list again and print all the employees and their deserved tips        
     for q in range (len(workers)):
         each = round(((pay[q] * indie)/5)) * 5
-        totalPay.append (each)
-        print(workers[q] + " should get: $" +str(totalPay [q]))
+        totalPay.append(each)
+        print(workers[q] + " should get: $" +str(each))
 
     print ("Sales tax set aside: $" + str(salesTax))
     finalPay = sum(totalPay)
