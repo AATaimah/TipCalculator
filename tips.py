@@ -58,6 +58,8 @@ def tips ():
         print(workers[q] + " should get: $" +str(each))
 
     print ("Sales tax set aside: $" + str(salesTax))
+
+    #These are mentioned after the q is iterated
     finalPay = sum(totalPay)
     remainder = newTips - finalPay
     print ("The remainder should be: $" + str(remainder))
