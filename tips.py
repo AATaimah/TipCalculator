@@ -1,6 +1,6 @@
 print ("Hi, this is the the Tip Calculator. How can I help you?")
 # Array of workers
-workers = ['Abu Omar','Abu Talal','Abu Mahmoud','Abu Yousef','Abdullah','Abu Yazan','Khatab',"Khader",'Mahmoud','Mostafa','Wael',"Monir",'Mohammed A','Abood','Mohammed F','Sara Eid','Weeam']
+workers = ['Abu Omar','Abu Talal','Abu Mahmoud','Abu Yousef','Abdullah','Abu Yazan','Khatab',"Khader",'Mahmoud','Mostafa','Wael',"Monir",'Mohammed A','Abood','Mohammed F','Noor','Sara Eid','Weeam']
 pay = []
 totalPay = []
 
